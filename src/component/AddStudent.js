@@ -54,9 +54,7 @@ function AddStudent() {
                 name={name} email={email} birthdate={birthdate} class={class_} teacher={teacher} street={street} state={state} city={city} zip={zip} 
                 setName={setName} setEmail={setEmail} setTeacher={setTeacher} setCity={setCity} setGender={setGender} setClass={setClass}
                 setBirthdate={setBirthdate} setState={setState} setZip={setZip} setStreet={setStreet} 
-                setName ={setName}
-
-                updateData={craeteStudent}
+                setName ={setName} updateData={craeteStudent}
                 action="Create"
             />
 
@@ -143,3 +141,9 @@ function EditStudent() {
 }
 
 export { AddStudent, EditStudent }
+
+
+
+
+
+
